@@ -1,0 +1,12 @@
+#body{
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+#menu_top h2{
+    float:left;
+}
+#menu_top{
+    float:right;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PRACTICAL</title>
+    <link rel="stylesheet" href="libs/fontawesome-free-5.15.1-web/css/all.css">
+    <link rel="stylesheet" href="libs/bootstrap-3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/nivo-slider/themes/default/default.css">
+    <link rel="stylesheet" href="libs/nivo-slider/nivo-slider.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/OwlCarousel2-2.3.4/owl.theme.default.css">
+    <link rel="stylesheet" href="thử.css">
+</head>
+<body>
+<h2>Scottish Arts Counicin</h2>
+<div id="menu_top">
+    <div id="menu_banner">
+        <div>
+            <form class="find">
+                <a>seach</a>
+                <input name="find" type="text" required placeholder="Tìm kiếm ...">
+                <input name="go" type="submit">
+            </form>
+        </div>
+    </div>
+</div>
+<header class="section header">
+    <div class="container">
+        <div>
+            <a href="https://projectdemoaptechx.herokuapp.com/Project.html"></a>
+        </div>
+        <div class="right">
+        </div>
+    </div>
+</header>
+<img src="imgs/1024px-Chùa_Trấn_Quốc,_Hà_Nội.jpg" height="768" width="1024"/>
+<nav class="section nav">
+    <div class="container">
+        <ul class="#">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Arts in Scotland</a></li>
+            <li><a href="#">Showcase</a></li>
+            <li><a href="#">What's on</a></li>
+            <li><a href="#">International</a></li>
+            <li><a href="#">Latest news</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">Professional</a></li>
+            <li><a href="#">16 24 explore</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Funding</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Web help</a></li>
+            <li><a href="#">Site map</a></li>
+        </ul>
+    </div>
+</nav>
+<section class="col-md-12">
+    <div class="container">
+        <img src="imgs/a.jpg">
+        <h1>Showcase</h1>
+        <h3>Showcasing examples of the fine work produced by artists and arts organisations funded by the Scottish Arts Council.
+
+            The showcase contains images, text, audio and video clips across the different artforms including visual arts, crafts, literature, drama, dance and music.
+
+            Search the showcase for specific artform examples by clicking on the drop down box</h3>
+    </div>
+</section>
+<div class="col-md-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form onsubmit="handleSubmit()" action="#" method="get">
+                    <div class="form-group">
+                        <label>Media</label>
+                        <select name="gender" onchange="handleChange(this)" class="form-control">
+                            <option value="All types">All types</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Artform</label>
+                        <select name="gender" onchange="handleChange(this)" class="form-control">
+                            <option value="All artforms">All artforms</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Themes</label>
+                        <select name="gender" onchange="handleChange(this)" class="form-control">
+                            <option value="All themes">All themes</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Keyword(s)</label>
+                        <textarea onkeyup="handleChange(this)" rows="5" name="mota" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary">search</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

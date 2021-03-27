@@ -1,18 +1,26 @@
-body{
-    font-family: Tahoma;
-    font-size: 13px;
-    width: 1000px;
-    margin: 0px auto;
+.section login{
+
+    margin-right: 1000px;
+    width: 100px;
+    padding: 50px;
+    margin: -15px;
+    height: 50px;
+    text-align: right;
+    background-color: #FFFFCC;
 }
-#menu_top{
-    background-color: #cccccc;
-    height:60px;
+.dau1{
+    background-color: #FFFFCC;
+
 }
-#menu_top{
-    float:right;
+.dau2{
+    float: right;
 }
-input[name=pwd]{
-    float: left;
-    width: 250px;
-    color: deeppink;
+.dau3 {
+    background-color: #ffffcc;
+    text-align: center;
+
+}
+.box {
+    margin-top: 10px;
+
 }
