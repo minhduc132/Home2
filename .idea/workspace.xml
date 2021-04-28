@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb02661-ad9b-4a60-a73d-08771b0a7467" name="Default Changelist" comment="poeject">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NHA SĨ.html" beforeDir="false" afterPath="$PROJECT_DIR$/NHA SĨ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trangchu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Trangchu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1619588358971" duration="1143000" />
       <workItem from="1619589587218" duration="1591000" />
       <workItem from="1619591260774" duration="5991000" />
-      <workItem from="1619597315877" duration="3427000" />
+      <workItem from="1619597315877" duration="3804000" />
     </task>
     <task id="LOCAL-00001" summary="poeject">
       <created>1618830297184</created>
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619600031171</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="poeject">
+      <created>1619600977269</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619600977269</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
