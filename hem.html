@@ -7,19 +7,75 @@
     <link rel="stylesheet" href="css/hem.css">
 </head>
 <body>
-<div id="menu_top">
-    <div class="top">
-        <ul>
-            <li><a href="#" title="Trang chủ  " class="active">Trang chủ </a></li>
-            <li><a href="#" title="Bảng giá ">Bảng giá </a></li>
-            <li><a href="https://projectdemo10.herokuapp.com/hem.html" title="Kiến thức ">Kiến thức </a></li>
-            <li><a href="#" title="Thư viện  ">Thư viện </a></li>
-            <li><a href="https://projectdemo10.herokuapp.com/NHA%20S%C4%A8.html#" title="Sự kiện">Sự kiện</a></li>
-            <li><a href="#" title="liên hệ ">Liên hệ </a></li>
-
-        </ul>
+<div id="login">
+    <section class="col-md-12">
+        <div class="col-md-3">
+            <img src="imgs/logo.png" height="60" width="207"/>
+        </div>
+        <div class="col-md-4">
+            <form role="search" method="get" action="">
+                <input class="txt-search" type="text" placeholder="Tìm kiếm ..." value="" name="s" autocomplete="off">
+                <input type="submit" id="btnsearch" value="search">
+            </form>
+        </div>
+        <div class="col-md-1">
+            <a href="#" class="btn btn-primary btn-lg" data-toggle="modal"
+               data-target="#myModal">
+                Đăng ký
+            </a>
+        </div>
+        <div class="col-md-1">
+            <a href="#" class="btn btn-primary btn-lg" data-toggle="modal"
+               data-target="#myModal">
+                Đăng nhập
+            </a>
+        </div>
+    </section>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="your.name@domain.com" class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" name="password" placeholder="password.." class="form-control"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+<div id="body">
+    <div class="top-menu">
+        <div class="top1">
+            <div class="topnav">
+                <ul id="menu-navigation" class="">
+                    <li class=""><a href="Trangchu.html">Trang chủ</a></li>
+                    <li class=""><a href="Bangiadichvu.html">Bảng giá</a></li>
+                    <li class=""><a href="">Kiến thức</a></li>
+                    <li class=""><a href="">Thư viện</a></li>
+                    <li  class=""><a href="">Sự kiện</a></li>
+                    <li class=""><a href="Lienhechungtoi.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 <div id="banner">
     <div>
         <img src="img/cay-ghep-implant-an-toan-tai-nha-khoa-Viet-uc.png" height="450" width="960"/>
