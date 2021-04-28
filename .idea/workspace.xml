@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="adb02661-ad9b-4a60-a73d-08771b0a7467" name="Default Changelist" comment="poeject">
+      <change beforePath="$PROJECT_DIR$/NHA SĨ.html" beforeDir="false" afterPath="$PROJECT_DIR$/NHA SĨ.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hem.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/nha sĩ.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nha sĩ.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hem.html" beforeDir="false" afterPath="$PROJECT_DIR$/hem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thư viện.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qpJfOMMujPN0flNCSefX8hk6P0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\minhd\poject\js" />
+      <recent name="C:\Users\minhd\poject\css" />
+      <recent name="C:\Users\minhd\poject\OWL" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adb02661-ad9b-4a60-a73d-08771b0a7467" name="Default Changelist" comment="" />
+      <created>1617770700942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617770700942</updated>
+      <workItem from="1617770702268" duration="4211000" />
+      <workItem from="1617777958176" duration="4000" />
+      <workItem from="1617790740596" duration="11746000" />
+      <workItem from="1617806725777" duration="2000" />
+      <workItem from="1618120953091" duration="8181000" />
+      <workItem from="1618207649625" duration="5547000" />
+      <workItem from="1618222219827" duration="13235000" />
+      <workItem from="1618311643060" duration="5950000" />
+      <workItem from="1618374808584" duration="10413000" />
+      <workItem from="1618397204945" duration="8310000" />
+      <workItem from="1618553070485" duration="2168000" />
+      <workItem from="1618815053584" duration="5311000" />
+      <workItem from="1618829871167" duration="5653000" />
+      <workItem from="1619159429781" duration="652000" />
+      <workItem from="1619420565133" duration="2110000" />
+      <workItem from="1619509503194" duration="8336000" />
+      <workItem from="1619524971682" duration="2769000" />
+      <workItem from="1619531051912" duration="8276000" />
+      <workItem from="1619588358971" duration="1143000" />
+      <workItem from="1619589587218" duration="1591000" />
+    </task>
+    <task id="LOCAL-00001" summary="poeject">
+      <created>1618830297184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618830297184</updated>
+    </task>
+    <task id="LOCAL-00002" summary="poeject">
+      <created>1619421334566</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619421334566</updated>
+    </task>
+    <task id="LOCAL-00003" summary="poeject">
+      <created>1619421903748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619421903748</updated>
+    </task>
+    <task id="LOCAL-00004" summary="poeject">
+      <created>1619532840575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619532840575</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="poject" />
+    <MESSAGE value="poeject" />
+    <option name="LAST_COMMIT_MESSAGE" value="poeject" />
+  </component>
+</project>
