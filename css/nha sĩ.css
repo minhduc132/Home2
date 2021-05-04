@@ -217,6 +217,10 @@ body{
     font-weight: 300;
     font-size: 25px;
     font-family: UTMSwissCondensed;
+    text-decoration: none;
+}
+.form-control {
+    margin-left: 21px;
 }
 
 body {
