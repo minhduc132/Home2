@@ -61,68 +61,134 @@
                         <div>
                             <iframe allowfullscreen="0" frameborder="0" height="200" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.105364944812!2d105.78227071423662!3d21.02846968599854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b32ecb92db%3A0x3964e6238a3bd088!2zOCBUw7RuIFRo4bqldCBUaHV54bq_dCwgTeG7uSDEkMOsbmgsIEPhuqd1IEdp4bqleSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1618224499484!5m2!1svi!2s" style="border:0" width="500"></iframe>
                         </div>
-                        <table with="438" border="0" style="margin:auto;">
-                            <tbody>
-                            <tr></tr>
-                            <tr>
-                                <td width="170" height="30" align="left"><span class="field">
-                                        <label  class="styled">Họ tên:</label>
+                        <form action="" method="post" name="emailForm" id="emailForm" onsubmit="return check_email_form()">
+                            <table with="438" border="0" style="margin:auto;">
+                                <tbody>
+                                <tr></tr>
+                                <tr>
+                                    <td width="170" height="30" align="left"><span class="field">
+                                        <label for="name" class="styled">Họ tên:</label>
                                     </span>
-                                </td>
-                                <td><span class="thefield">
-                                        <input class="text_input" name="name" type="text" id="name" required placeholder="Họ và tên" size="40">
+                                    </td>
+                                    <td><span class="thefield">
+                                        <input type="text" name="name" id="name" class="mid_field" value="" required placeholder="Họ tên" size="40">
                                     </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td height="30" align="left"><span class="field">
-                                        <label  class="styled">Địa chỉ:</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="30" align="left"><span class="field">
+                                        <label class="styled">Địa chỉ:</label>
                                     </span></td>
-                                <td><span class="thefield">
-                                        <input class="text_input" name="address" type="text" id="address" required placeholder="Địa chỉ" size="40">
+                                    <td><span class="thefield">
+                                        <input class="text" name="address" type="text" id="address" required placeholder="Địa chỉ" size="40">
                                     </span></td>
-                            </tr>
-                            <tr>
-                                <td height="30" align="left"><span class="field">
-                                        <label  class="styled">Email:</label>
+                                </tr>
+                                <tr>
+                                    <td height="30" align="left"><span class="field">
+                                        <label for="email" class="styled">Email:</label>
                                     </span></td>
-                                <td><span class="thefield">
-                                        <input class="text_input" name="email" type="text" id="email" required placeholder="Email" size="40">
+                                    <td><span class="thefield">
+                                        <input type="text" id="email" name="email" value="" class="mid_field" maxlength="100" required placeholder="Email" size="40">
                                     </span></td>
-                            </tr>
-                            <tr>
-                                <td height="30" align="left"><span class="field">
-                                        <label  class="styled">Điện thoại:</label>
+                                </tr>
+                                <tr>
+                                    <td height="30" align="left"><span class="field">
+                                        <label for="phone" class="styled">Điện thoại:</label>
                                     </span></td>
-                                <td><span class="thefield">
-                                        <input class="text_input" name="mobile" type="text" id="mobile" required placeholder="Điện thoại" size="40">
+                                    <td><span class="thefield">
+                                        <input type="text" name="phone" id="phone" class="mid_field" value="" required placeholder="Điện thoại" size="40">
                                     </span></td>
-                            </tr>
-                            <tr>
-                                <td align="left"><span class="field">
-                                        <label  class="styled">Tiêu đề:</label>
+                                </tr>
+                                <tr>
+                                    <td align="left"><span class="field">
+                                        <label class="styled">Tiêu đề:</label>
                                     </span></td>
-                                <td><span class="thefield">
-                                        <input name="title" type="text" id="title" required placeholder="Tiêu đề" size="40" class="text_input">
+                                    <td><span class="thefield">
+                                        <input type="text" name="subject" id="subject" class="mid_field" value="" required placeholder="Tiêu đề" size="40">
                                     </span></td>
-                            </tr>
-                            <tr>
-                                <td align="left"><span class="field">
-                                        <label  class="styled">Nội dung:</label>
+                                </tr>
+                                <tr>
+                                    <td align="left"><span class="field">
+                                        <label for="text" class="styled">Nội dung:</label>
                                     </span></td>
-                                <td><span class="thefield">
-                                        <textarea style="width: 311px;" id="content" required placeholder="Nội dung" name="content" cols="40" rows="8"></textarea>
+                                    <td><span class="thefield">
+                                        <textarea cols="40" rows="8" name="text" id="text" class="mid_field" required placeholder="Nội dung" size="40"></textarea>
                                     </span></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td><button type="submit" value="Gửi mail" name="save" style=" margin-left: 80px; width: 70px;height: 30px">
-                                    Gửi                                    </button></td>
-                            </tr>
-                            </tbody>
-                        </table>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><button type="submit" value="Gửi mail" name="save" style=" margin-left: 80px; width: 70px;height: 30px">
+                                        Gửi                                    </button></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                        <script type="text/javascript">
+                            function check_email_form()
+                            {
+                                var nm = gde("name");
+                                var add = gde("address");
+                                var ph = gde("phone");
+                                var mb = gde("mobile");
+                                var em = gde("email");
+                                var sj = gde("subject");
+                                var tx = gde("text");
+
+                                if(nm.value == "")
+                                {
+                                    alert("Vui lòng nhập tên của bạn");
+                                    nm.focus();
+                                    return false;
+                                }
+
+                                if(add.value == "")
+                                {
+                                    alert("Vui lòng nhập địa chỉ");
+                                    add.focus();
+                                    return false;
+                                }
+
+                                if(ph.value == "")
+                                {
+                                    alert("Vui lòng nhập điện thoại");
+                                    ph.focus();
+                                    return false;
+                                }
+
+                                if(em.value == "")
+                                {
+                                    alert("Vui lòng nhập email");
+                                    em.focus();
+                                    return false;
+                                }
+
+                                if(em.value.indexOf(".") == -1 || em.value.indexOf("@") == -1)
+                                {
+                                    alert("Email bạn nhập không đúng");
+                                    em.focus();
+                                    em.select();
+                                    return false;
+                                }
+
+                                if(sj.value == "")
+                                {
+                                    alert("Vui lòng nhập tiêu đề email");
+                                    sj.focus();
+                                    return false;
+                                }
+                                if(tx.value == "")
+                                {
+                                    alert("Vui lòng nhập nội dung email");
+                                    tx.focus();
+                                    return false;
+                                }
+
+                                return true;
+                            }
+                        </script>
                     </div>
-                    <div class="col-xs-12 col-md-4 sidebar-container">
+
+                        <div class="col-xs-12 col-md-4 sidebar-container">
                         <aside id="custom_html-13" class="widget_text widget widget_custom_html"><h2 class="widget-title" style="display: none!important;">Menu Sidebar</h2><div class="textwidget custom-html-widget"><aside id="widget_menu-1" class="widget widget-primary" style="margin-bottom: 0;">
                             <div class="widget-inner">
                                 <h2 class="widget-title">Nha khoa thẩm mỹ</h2>
