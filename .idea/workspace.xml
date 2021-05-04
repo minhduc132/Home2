@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adb02661-ad9b-4a60-a73d-08771b0a7467" name="Default Changelist" comment="poeject">
-      <change afterPath="$PROJECT_DIR$/Bangiadichvu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lienhechungtoi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Trangchu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trangchu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Trangchu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Nhakhoa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Nhakhoa.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/1-60-600x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/nemo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/services_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/services_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/services_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/services_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/services_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/services_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/services_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/imgs/services_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/signin.html" beforeDir="false" afterPath="$PROJECT_DIR$/signin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +103,7 @@
       <workItem from="1619702005355" duration="513000" />
       <workItem from="1620009825690" duration="1422000" />
       <workItem from="1620026039101" duration="8274000" />
-      <workItem from="1620113904891" duration="21679000" />
+      <workItem from="1620113904891" duration="23789000" />
     </task>
     <task id="LOCAL-00001" summary="poeject">
       <created>1618830297184</created>
@@ -213,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620137505084</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="poeject">
+      <created>1620137571101</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620137571101</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
